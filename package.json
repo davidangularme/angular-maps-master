@@ -1,0 +1,56 @@
+{
+    "name": "angular-maps",
+    "version": "1.0.0",
+    "description": "Google Maps JavaScript API in the Angular applications using TypeScript",
+    "main": "",
+    "scripts": {
+        "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",
+        "lite": "lite-server",
+        "tsc": "tsc",
+        "tsc:w": "tsc -w"
+    },
+    "keywords": [],
+    "author": "Roberto Simonetti",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/robisim74/angular-maps.git"
+    },
+    "bugs": {
+        "url": "https://github.com/robisim74/angular-maps/issues"
+    },
+    "homepage": "https://github.com/robisim74/angular-maps",
+    "dependencies": {
+        "@angular/common": "^4.0.0",
+        "@angular/compiler": "^4.0.0",
+        "@angular/compiler-cli": "^4.3.1",
+        "@angular/core": "^4.0.0",
+        "@angular/forms": "4.0.0",
+        "@angular/platform-browser": "^4.0.0",
+        "@angular/platform-browser-dynamic": "^4.0.0",
+        "@angular/router": "^4.3.1",
+        "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.28",
+        "ag-grid": "^11.0.0",
+        "ag-grid-angular": "^11.0.0",
+        "core-js": "^2.4.1",
+        "jspm": "^0.16.53",
+        "jsts": "^1.4.0",
+        "ng2-smart-table": "^1.2.1",
+        "reflect-metadata": "0.1.10",
+        "rxjs": "^5.2.0",
+        "zone.js": "^0.8.5"
+    },
+    "devDependencies": {
+        "@types/googlemaps": "3.26.7",
+        "@types/node": "^6.0.45",
+        "babel-core": "^6.25.0",
+        "babel-loader": "^7.1.1",
+        "concurrently": "^2.2.0",
+        "gulp": "^3.9.1",
+        "gulp-ngc": "^0.1.3",
+        "lite-server": "^2.2.2",
+        "systemjs": "^0.19.47",
+        "systemjs-builder": "^0.15.33",
+        "typescript": "^2.2.1"
+    }
+}
